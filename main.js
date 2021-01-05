@@ -47,7 +47,6 @@ ipcMain.on('getData', (event, arg) => {
     path.join(__dirname, './src/config.json'),
     'utf8',
     (err, data) => {
-      console.log(' main.js ~ line 50 ~ ipcMain.on ~ err', err);
       event.sender.send('data-reply', data);
     }
   );
@@ -59,15 +58,9 @@ ipcMain.on('updateData', (event, arg) => {
     JSON.stringify(arg),
     'utf8',
     (err) => {
-      if (err) {
-        console.log(' updateData ~ ipcMain.on ~ err', err);
-      } else {
-        event.sender.send('data-reply', arg);
-      }
+      event.sender.send('data-reply', arg);
     }
   );
-
-  // event.reply('asynchronous-reply', 'pong')
 });
 
 try {
