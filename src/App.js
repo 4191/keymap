@@ -79,7 +79,7 @@ function App() {
           <h2>编辑：</h2>
           <span>名称:</span>
           <input
-            placeholder={editingKey?.name}
+            defaultValue={editingKey?.name}
             onChange={(e) => {
               editingKey.name = e.target.value;
             }}
@@ -97,14 +97,14 @@ function App() {
           <br />
           <span>FN1:</span>
           <input
-            placeholder={editingKey?.FN1}
+            defaultValue={editingKey?.FN1}
             onChange={(e) => {
               editingKey.FN1 = e.target.value;
             }}
           ></input>
           <span>FN2:</span>
           <input
-            placeholder={editingKey?.FN2}
+            defaultValue={editingKey?.FN2}
             onChange={(e) => {
               editingKey.FN2 = e.target.value;
             }}
@@ -116,14 +116,14 @@ function App() {
             min={1}
             max={5}
             step={0.1}
-            defaultValue={editingKey?.width}
+            defaultValue={editingKey?.width || 1}
             onChange={(e) => {
               editingKey.width = e.target.value;
             }}
           ></input>
           <span>description:</span>
           <input
-            placeholder={editingKey?.description}
+            defaultValue={editingKey?.description}
             onChange={(e) => {
               editingKey.description = e.target.value;
             }}
