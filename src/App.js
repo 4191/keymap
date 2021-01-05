@@ -64,26 +64,27 @@ function App() {
               >
                 {key.name}
               </div>
-              {[14, 28, 41, 55].includes(index) ? <div></div> : ''}
+              {[14, 28, 41, 54].includes(index) ? <div></div> : ''}
             </Fragment>
           );
         })}
 
         {/* 编辑组件 */}
         <div
+          className="editComp"
           style={{
             display: editingKey ? '' : 'none',
           }}
         >
           <h2>编辑：</h2>
-          名称：
+          <span>名称:</span>
           <input
             placeholder={editingKey?.name}
             onChange={(e) => {
               editingKey.name = e.target.value;
             }}
           ></input>
-          位置：
+          <span>位置:</span>
           <input
             defaultValue={editingKey?.index}
             type="number"
@@ -93,34 +94,41 @@ function App() {
               editingKey.newIndex = Number(e.target.value);
             }}
           ></input>
-          FN1:
+          <br />
+          <span>FN1:</span>
           <input
             placeholder={editingKey?.FN1}
             onChange={(e) => {
               editingKey.FN1 = e.target.value;
             }}
           ></input>
-          FN2:
+          <span>FN2:</span>
           <input
             placeholder={editingKey?.FN2}
             onChange={(e) => {
               editingKey.FN2 = e.target.value;
             }}
           ></input>
-          宽度（U）:
+          <br />
+          <span>宽度（U）:</span>
           <input
-            placeholder={editingKey?.width}
+            type="number"
+            min={1}
+            max={5}
+            step={0.1}
+            defaultValue={editingKey?.width}
             onChange={(e) => {
               editingKey.width = e.target.value;
             }}
           ></input>
-          description:
+          <span>description:</span>
           <input
             placeholder={editingKey?.description}
             onChange={(e) => {
               editingKey.description = e.target.value;
             }}
           ></input>
+          <br />
           <button
             onDoubleClick={() => {
               delKey(editingKey?.index);

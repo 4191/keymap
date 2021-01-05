@@ -37,6 +37,18 @@
   }
 }
 
+.App button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 60px;
+  background: #1890ff;
+  border: 1px solid #1890ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 /* keymap */
 .key {
   width: 120px;
@@ -53,4 +65,27 @@
   color: white;
   background: #1890ff;
   border: 1px solid #1890ff;
+}
+
+/* 编辑区域 */
+.editComp {
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.editComp button {
+  float: right;
+}
+
+.editComp span {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+.editComp input {
+  width: 120px;
+  height: 32px;
+  margin: 10px 20px;
 }
