@@ -1,0 +1,290 @@
+[
+  {
+    "ASCII": "0x3",
+    "name": "CANCEL",
+    "description": "CANCEL",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x8",
+    "name": "BACKSPACE",
+    "description": "BACKSPACE",
+    "FN1": "",
+    "FN2": ""
+  },
+  { "ASCII": "0x9", "name": "TAB", "description": "TAB", "FN1": "", "FN2": "" },
+  {
+    "ASCII": "0xC",
+    "name": "CLEAR",
+    "description": "CLEAR",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0xD",
+    "name": "ENTER",
+    "description": "ENTER",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x10",
+    "name": "SHIFT",
+    "description": "SHIFT",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x11",
+    "name": "CTRL",
+    "description": "CTRL",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x12",
+    "name": "MENU",
+    "description": "MENU",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x13",
+    "name": "PAUSE",
+    "description": "PAUSE",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x14",
+    "name": "CAPS LOCK",
+    "description": "CAPS LOCK",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x1B",
+    "name": "ESC",
+    "description": "ESC",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x20",
+    "name": "SPACEBAR",
+    "description": "SPACEBAR",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x21",
+    "name": "PAGE UP",
+    "description": "PAGE UP",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x22",
+    "name": "PAGE DOWN",
+    "description": "PAGE DOWN",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x23",
+    "name": "END",
+    "description": "END",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x24",
+    "name": "HOME",
+    "description": "HOME",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x25",
+    "name": "LEFT ARROW",
+    "description": "LEFT ARROW",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x26",
+    "name": "UP ARROW",
+    "description": "UP ARROW",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x27",
+    "name": "RIGHT ARROW",
+    "description": "RIGHT ARROW",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x28",
+    "name": "DOWN ARROW",
+    "description": "DOWN ARROW",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x29",
+    "name": "SELECT",
+    "description": "SELECT",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2A",
+    "name": "PRINT SCREEN",
+    "description": "PRINT SCREEN",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2B",
+    "name": "EXECUTE",
+    "description": "EXECUTE",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2C",
+    "name": "SNAPSHOT",
+    "description": "SNAPSHOT",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2D",
+    "name": "INSERT",
+    "description": "INSERT",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2E",
+    "name": "DELETE",
+    "description": "DELETE",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x2F",
+    "name": "HELP",
+    "description": "HELP",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x90",
+    "name": "NUM LOCK",
+    "description": "NUM LOCK ",
+    "FN1": "",
+    "FN2": ""
+  },
+  { "ASCII": "65", "name": "A", "description": "A", "FN1": "", "FN2": "" },
+  { "ASCII": "66", "name": "B", "description": "B", "FN1": "", "FN2": "" },
+  { "ASCII": "67", "name": "C", "description": "C", "FN1": "", "FN2": "" },
+  { "ASCII": "68", "name": "D", "description": "D", "FN1": "", "FN2": "" },
+  { "ASCII": "69", "name": "E", "description": "E", "FN1": "", "FN2": "" },
+  { "ASCII": "70", "name": "F", "description": "F", "FN1": "", "FN2": "" },
+  { "ASCII": "71", "name": "G", "description": "G", "FN1": "", "FN2": "" },
+  { "ASCII": "72", "name": "H", "description": "H", "FN1": "", "FN2": "" },
+  { "ASCII": "73", "name": "I", "description": "I", "FN1": "", "FN2": "" },
+  { "ASCII": "74", "name": "J", "description": "J", "FN1": "", "FN2": "" },
+  { "ASCII": "75", "name": "K", "description": "K", "FN1": "", "FN2": "" },
+  { "ASCII": "76", "name": "L", "description": "L", "FN1": "", "FN2": "" },
+  { "ASCII": "77", "name": "M", "description": "M", "FN1": "", "FN2": "" },
+  { "ASCII": "78", "name": "N", "description": "N", "FN1": "", "FN2": "" },
+  { "ASCII": "79", "name": "O", "description": "O", "FN1": "", "FN2": "" },
+  { "ASCII": "80", "name": "P", "description": "P", "FN1": "", "FN2": "" },
+  { "ASCII": "81", "name": "Q", "description": "Q", "FN1": "", "FN2": "" },
+  { "ASCII": "82", "name": "R", "description": "R", "FN1": "", "FN2": "" },
+  { "ASCII": "83", "name": "S", "description": "S", "FN1": "", "FN2": "" },
+  { "ASCII": "84", "name": "T", "description": "T", "FN1": "", "FN2": "" },
+  { "ASCII": "85", "name": "U", "description": "U", "FN1": "", "FN2": "" },
+  { "ASCII": "86", "name": "V", "description": "V", "FN1": "", "FN2": "" },
+  { "ASCII": "87", "name": "W", "description": "W", "FN1": "", "FN2": "" },
+  { "ASCII": "88", "name": "X", "description": "X", "FN1": "", "FN2": "" },
+  { "ASCII": "89", "name": "Y", "description": "Y", "FN1": "", "FN2": "" },
+  { "ASCII": "90", "name": "Z ", "description": "Z ", "FN1": "", "FN2": "" },
+  { "ASCII": "48", "name": "0", "description": "0", "FN1": "", "FN2": "" },
+  { "ASCII": "49", "name": "1", "description": "1", "FN1": "", "FN2": "" },
+  { "ASCII": "50", "name": "2", "description": "2", "FN1": "", "FN2": "" },
+  { "ASCII": "51", "name": "3", "description": "3", "FN1": "", "FN2": "" },
+  { "ASCII": "52", "name": "4", "description": "4", "FN1": "", "FN2": "" },
+  { "ASCII": "53", "name": "5", "description": "5", "FN1": "", "FN2": "" },
+  { "ASCII": "54", "name": "6", "description": "6", "FN1": "", "FN2": "" },
+  { "ASCII": "55", "name": "7", "description": "7", "FN1": "", "FN2": "" },
+  { "ASCII": "56", "name": "8", "description": "8", "FN1": "", "FN2": "" },
+  { "ASCII": "57", "name": "9 ", "description": "9 ", "FN1": "", "FN2": "" },
+  { "ASCII": "0x60", "name": "0", "description": "0", "FN1": "", "FN2": "" },
+  { "ASCII": "0x61", "name": "1", "description": "1", "FN1": "", "FN2": "" },
+  { "ASCII": "0x62", "name": "2", "description": "2", "FN1": "", "FN2": "" },
+  { "ASCII": "0x63", "name": "3", "description": "3", "FN1": "", "FN2": "" },
+  { "ASCII": "0x64", "name": "4", "description": "4", "FN1": "", "FN2": "" },
+  { "ASCII": "0x65", "name": "5", "description": "5", "FN1": "", "FN2": "" },
+  { "ASCII": "0x66", "name": "6", "description": "6", "FN1": "", "FN2": "" },
+  { "ASCII": "0x67", "name": "7", "description": "7", "FN1": "", "FN2": "" },
+  { "ASCII": "0x68", "name": "8", "description": "8", "FN1": "", "FN2": "" },
+  { "ASCII": "0x69", "name": "9", "description": "9", "FN1": "", "FN2": "" },
+  {
+    "ASCII": "0x6A",
+    "name": "MULTIPLICATION SIGN",
+    "description": "MULTIPLICATION SIGN (*)",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x6B",
+    "name": "PLUS SIGN",
+    "description": "PLUS SIGN (+)",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x6C",
+    "name": "ENTER",
+    "description": "ENTER",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x6D",
+    "name": "MINUS SIGN",
+    "description": "MINUS SIGN (–)",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x6E",
+    "name": "DECIMAL POINT",
+    "description": "DECIMAL POINT (.)",
+    "FN1": "",
+    "FN2": ""
+  },
+  {
+    "ASCII": "0x6F",
+    "name": "DIVISION SIGN",
+    "description": "DIVISION SIGN (/) ",
+    "FN1": "",
+    "FN2": ""
+  },
+  { "ASCII": "0x70", "name": "F1", "description": "F1", "FN1": "", "FN2": "" },
+  { "ASCII": "0x71", "name": "F2", "description": "F2", "FN1": "", "FN2": "" },
+  { "ASCII": "0x72", "name": "F3", "description": "F3", "FN1": "", "FN2": "" },
+  { "ASCII": "0x73", "name": "F4", "description": "F4", "FN1": "", "FN2": "" },
+  { "ASCII": "0x74", "name": "F5", "description": "F5", "FN1": "", "FN2": "" },
+  { "ASCII": "0x75", "name": "F6", "description": "F6", "FN1": "", "FN2": "" },
+  { "ASCII": "0x76", "name": "F7", "description": "F7", "FN1": "", "FN2": "" },
+  { "ASCII": "0x77", "name": "F8", "description": "F8", "FN1": "", "FN2": "" },
+  { "ASCII": "0x78", "name": "F9", "description": "F9", "FN1": "", "FN2": "" },
+  { "ASCII": "0x79", "name": "F10", "description": "F10", "FN1": "", "FN2": "" }
+]
