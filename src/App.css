@@ -61,6 +61,17 @@
   height: 45px;
 }
 
+.FN {
+  width: 120px;
+  display: inline-block;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  border: 1px solid #282c34;
+  height: 45px;
+}
+
 .key:hover {
   color: white;
   background: #1890ff;

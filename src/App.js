@@ -2,12 +2,14 @@ import { useState, useEffect, Fragment } from 'react';
 import './App.css';
 const { ipcRenderer } = window.require('electron');
 
+// 刷新数据
 const refreshData = () => {
   ipcRenderer.send('getData', 'getData');
 };
 
 function App() {
   let [data, setData] = useState([]);
+  let [showFn, setShowFn] = useState(false);
   let [editingKey, editingKeyFunc] = useState(null);
 
   useEffect(() => {
@@ -48,6 +50,13 @@ function App() {
   return (
     <div className="App">
       <button onClick={refreshData}>刷新</button>
+      <button
+        onClick={() => {
+          setShowFn(!showFn);
+        }}
+      >
+        {showFn ? 'key' : 'FN'}
+      </button>
       <div className="App-div">
         {data.map((key, index) => {
           let { width = 1 } = key;
@@ -55,14 +64,14 @@ function App() {
             <Fragment>
               <div
                 key={index}
-                className="key"
+                className={showFn ? 'FN' : 'key'}
                 style={{ width: 45 * width }}
                 title={key.name}
                 onClick={() => {
                   editingKeyFunc({ ...key, index });
                 }}
               >
-                {key.name}
+                {showFn ? key.FN1 + ' ' + key.FN2 : key.name}
               </div>
               {[14, 28, 41, 54].includes(index) ? <div></div> : ''}
             </Fragment>
@@ -116,7 +125,7 @@ function App() {
             min={1}
             max={5}
             step={0.1}
-            defaultValue={editingKey?.width || 1}
+            defaultValue={editingKey?.width}
             onChange={(e) => {
               editingKey.width = e.target.value;
             }}
@@ -129,13 +138,13 @@ function App() {
             }}
           ></input>
           <br />
-          <button
+          {/* <button
             onDoubleClick={() => {
               delKey(editingKey?.index);
             }}
           >
             删除
-          </button>
+          </button> */}
           <button
             onClick={() => {
               updateKey(editingKey?.index);
